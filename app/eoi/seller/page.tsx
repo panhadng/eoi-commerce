@@ -9,13 +9,13 @@ const Create = () => {
     <div className="container flex flex-col items-center justify-center">
       <div className="container p-4">
         <button
-          onClick={() => router.push("/")}
+          onClick={() => router.push("/eoi/seller/create")}
           className="w-full flex flex-col text-center justify-center items-center bg-gray-300 p-4 h-40 rounded-xl my-4 hover:bg-gray-400 transition duration-300 ease-in-out"
         >
           <p>Create New EOI</p>
         </button>
         <button
-          onClick={() => router.push("/")}
+          onClick={() => router.push("/eoi/seller/current")}
           className="w-full flex flex-col text-center justify-center items-center bg-gray-300 p-4 h-40 rounded-xl my-4 hover:bg-gray-400 transition duration-300 ease-in-out"
         >
           <p>Current EOI</p>
